@@ -1,4 +1,3 @@
-# Boilerplate Composer Library/Project
-Clone as a starting point for Projects/Libraries.
+# Breeze-pdf-reader Library/Project
 
-```composer create-project --prefer-dist arajcany/boilerplate-composer <YourProjectName>```
+A simple PHP PDF parser
