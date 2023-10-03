@@ -1,0 +1,28 @@
+{
+  "name": "hugebear42/breeze-pdf-parser",
+  "description": "A simple PDF parser library.",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.1",
+    "ext-json": "*",
+    "arajcany/tool-box": "^2.1",
+    "arajcany/backblaze-b2-client": "^2.0",
+    "league/flysystem-sftp-v3": "^3.16",
+    "zaxbux/flysystem-backblaze-b2": "^3.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "App\\Test\\": "tests/"
+    }
+  },
+  "prefer-stable": true
+}
