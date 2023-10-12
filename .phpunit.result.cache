@@ -1,1 +1,1 @@
-{"version":1,"defects":{"App\\Test\\FooBarTest::testReturnFalse":7},"times":{"App\\Test\\FooBarTest::testReturnTrue":0.001,"App\\Test\\FooBarTest::testReturnFalse":0,"App\\Test\\Breeze\\BreezeReaderTest::testReturnTrue":0.011,"App\\Test\\Breeze\\BreezeReaderTest::testMultiply":0}}
+{"version":1,"defects":{"App\\Test\\FooBarTest::testReturnFalse":7},"times":{"App\\Test\\FooBarTest::testReturnTrue":0.001,"App\\Test\\FooBarTest::testReturnFalse":0,"App\\Test\\Breeze\\BreezeReaderTest::testReturnTrue":0.011,"App\\Test\\Breeze\\BreezeReaderTest::testMultiply":0.007}}

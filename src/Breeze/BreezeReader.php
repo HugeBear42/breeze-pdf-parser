@@ -9,15 +9,6 @@ class BreezeReader
     {
     }
 
-    public function returnTrue(): bool
-    {
-        return true;
-    }
-
-    public function return1(): int
-    {
-        return 1;
-    }
 
     /**
      * @param float|int $a
@@ -28,6 +19,7 @@ class BreezeReader
     {
         return $a * $b;
     }
+
     public function divide(float|int $a, float|int $b): float|int
     {
         return $a / $b;
