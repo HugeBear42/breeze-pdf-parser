@@ -25,8 +25,7 @@ class ColourTools
         $k = 1 - max($r, $g, $b);
         $c = $m = $y = 0;
         // We calculate the CMY values
-        if ($k != 1.0)
-        {
+        if ($k != 1.0) {
             $c = (1.0 - $r - $k) / (1.0 - $k);
             $m = (1.0 - $g - $k) / (1.0 - $k);
             $y = (1.0 - $b - $k) / (1.0 - $k);
@@ -36,7 +35,7 @@ class ColourTools
         $m = round($m * 100.0);
         $y = round($y * 100.0);
         $k = round($k * 100.0);
-        echo "c: {$c}, m: {$m}, y: {$y}, k: {$k}\n";
+        //echo "c: {$c}, m: {$m}, y: {$y}, k: {$k}\n";
         $cmykArray = [$c, $m, $y, $k];
 
         return $cmykArray;
@@ -83,7 +82,7 @@ class ColourTools
         $r = intval(round($r * 255.0));
         $g = intval(round($g * 255.0));
         $b = intval(round($b * 255.0));
-        echo "r: {$r}, g: {$g}, b: {$b}\n";
+        //echo "r: {$r}, g: {$g}, b: {$b}\n";
         $rgbArray = [$r, $g, $b];
 
         return $rgbArray;

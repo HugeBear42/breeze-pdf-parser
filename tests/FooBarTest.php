@@ -22,4 +22,12 @@ class FooBarTest extends TestCase
         $result = $FooBar->returnFalse();
         assertEquals(false, $result);
     }
+
+    public function testReadSampleFile()
+    {
+        $file = TESTS . "Samples/basic.pdf";
+        $result = is_file($file);
+
+        assertEquals(true, $result);
+    }
 }
