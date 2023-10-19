@@ -29,4 +29,9 @@ class BreezeReaderTest extends TestCase
         $this->assertEquals(0, $result);
     }
 
+    public function testPDFExists()
+    {
+        $filepath="/Samples/basic.pdf";
+        $this->assertTrue(file_exists(TESTS.$filepath), "File {$filepath} exists");
+    }
 }
