@@ -42,3 +42,4 @@ nbproject/*
 /composer.phar
 /data/tickle.sqlite
 .phpunit.result.cache
+.phpunit.result.cache
